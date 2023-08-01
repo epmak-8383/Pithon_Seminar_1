@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap);
+
+
+@font-face {
+        font-family: Family New;
+        src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: brown;
+    font-family: RobotoMono-VariableFont_wght, sans-serif;
+    color: beige;
+}
+
+.header{
+    padding: 40px 0;
+}
+
+.special_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .special_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
+}
+
+.main_title_header, .big_title{
+    font-family: Family New;
+    font-size: 16px;
+}
+
+.menu{
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+}
+
+.menu_items{
+    margin-right: 50px;
+}
+
+.menu_item a{
+    font-size: 14px;
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main_item a:hover{
+    border-bottom: 2px solid white;
+}
+
+/*конец блока header*/
+
+/*Начало блока Section*/
+.main_content{
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.main_content_info{
+    max-width: 1200px;
+}
+
+.content_title{
+    font-family: Family New, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.content_text{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 56px;
+    text-align: justify;
+
+}
+/*Конец блока Section*/
+
+/*Начало блока  Footer*/
+.footer{
+    padding: 20px 0;
+}
+
+.special_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.footer .up_link{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*конец блока Footer*/
+
+
